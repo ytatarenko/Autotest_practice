@@ -11,16 +11,4 @@ allure serve ./reports
 # Configuration files
 // TODO
 
-# Troubleshooting
-```python
-import file mismatch:
-HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
-```
-
-SOLUTION:
-```bash
-apiliuk$ cd pyTestRequests/
-apiliuk$ rm -rf __pycache__/
-apiliuk$ rm -rf tests/__pycache__/
-apiliuk$ rm -rf tests/draft/__pycache__/
 ```
