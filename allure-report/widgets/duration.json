@@ -1,0 +1,31 @@
+[ {
+  "uid" : "de9ae7a75b8535d",
+  "name" : "test_create_issue",
+  "time" : {
+    "start" : 1579433463291,
+    "stop" : 1579433463954,
+    "duration" : 663
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "def5867c4f68764a",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1579433464297,
+    "stop" : 1579433464789,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f143f24219f809d4",
+  "name" : "test_create_issue_refactored",
+  "time" : {
+    "start" : 1579433462264,
+    "stop" : 1579433462845,
+    "duration" : 581
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

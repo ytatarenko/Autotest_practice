@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.utils.api:api.py:26 TEST: Login with webinar5, webinar5 credentials

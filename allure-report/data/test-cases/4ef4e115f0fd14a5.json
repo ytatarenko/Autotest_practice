@@ -1,0 +1,97 @@
+{
+  "uid" : "4ef4e115f0fd14a5",
+  "name" : "test_login",
+  "fullName" : "tests.draft.login_test#test_login",
+  "historyId" : "531d0c1e04d9feb1b9eea7d61fa7081e",
+  "time" : {
+    "start" : 1579432273941,
+    "stop" : 1579432274487,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authentication",
+    "time" : {
+      "start" : 1579432273622,
+      "stop" : 1579432273940,
+      "duration" : 318
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1579432273622,
+        "stop" : 1579432273940,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "704482b6e1ab67ed",
+      "name" : "log",
+      "source" : "704482b6e1ab67ed.txt",
+      "type" : "text/plain",
+      "size" : 91
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.draft"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "YuriiTatarenkos-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6682-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.draft.login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ef4e115f0fd14a5.json",
+  "parameterValues" : [ ]
+}

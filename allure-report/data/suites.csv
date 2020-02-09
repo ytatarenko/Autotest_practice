@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jan 19 13:31:03 EET 2020","Sun Jan 19 13:31:03 EET 2020","663","tests.draft","create_issue_raw_code_test","TestLogin","","","test_create_issue",""
+"passed","Sun Jan 19 13:31:04 EET 2020","Sun Jan 19 13:31:04 EET 2020","492","tests.draft","login_test","","","","test_login",""
+"failed","Sun Jan 19 13:31:02 EET 2020","Sun Jan 19 13:31:02 EET 2020","581","tests","create_issue_test","TestIssueRefactored","","","test_create_issue_refactored",""

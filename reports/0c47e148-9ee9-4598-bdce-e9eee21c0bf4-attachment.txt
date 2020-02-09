@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.utils.api:api.py:26 TEST: Login with webinar5, webinar5 credentials
+[32mINFO    [0m tests.utils.api:api.py:34 TEST: Create issue. Method: POST, Data: {'fields': {'project': {'key': 'WEBINAR'}, 'summary': 'Test Summary', 'description': 'Creating of an issue', 'assignee': {'name': 'webinar5'}, 'priority': {'name': 'High'}, 'issuetype': {'name': 'Bug'}}}

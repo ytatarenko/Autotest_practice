@@ -1,0 +1,104 @@
+{
+  "uid" : "d279b31b40583198",
+  "name" : "test_create_issue",
+  "fullName" : "tests.draft.create_issue_raw_code_test.TestLogin#test_create_issue",
+  "historyId" : "9bb367fc2f323bc6a7585f0df2e79d8f",
+  "time" : {
+    "start" : 1579432272951,
+    "stop" : 1579432273614,
+    "duration" : 663
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 201 == 405\n  -201\n  +405",
+  "statusTrace" : "self = <tests.draft.create_issue_raw_code_test.TestLogin object at 0x10de06198>\n\n    def test_create_issue(self):\n        result = requests.get('http://jira.hillel.it:8080',\n                              auth=('webinar5', 'webinar5'))\n        assert 200 == result.status_code\n        cookie = {'JSESSIONID': result.cookies.get(\"JSESSIONID\")}\n    \n        json_for_create_issue = {\n            \"fields\": {\n                \"project\":\n                    {\n                        \"key\": \"WEBINAR\"\n                    },\n                \"summary\": \"Test Summary\",\n                \"description\": \"Creating of an issue\",\n                \"assignee\": {\"name\": \"webinar5\"},\n                \"priority\": {\"name\": \"High\"},\n                \"issuetype\": {\"name\": \"Bug\"}\n            }\n        }\n    \n        result = requests.post(\"http://jira.hillel.it:8080/rest/api/2/issue\",\n                               json=json_for_create_issue,\n                               headers={'Content-Type': 'application/json'},\n                               cookies=cookie)\n>       assert 201 == result.status_code\nE       assert 201 == 405\nE         -201\nE         +405\n\ntests/draft/create_issue_raw_code_test.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authentication",
+    "time" : {
+      "start" : 1579432272570,
+      "stop" : 1579432272950,
+      "duration" : 380
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1579432272571,
+        "stop" : 1579432272950,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 201 == 405\n  -201\n  +405",
+    "statusTrace" : "self = <tests.draft.create_issue_raw_code_test.TestLogin object at 0x10de06198>\n\n    def test_create_issue(self):\n        result = requests.get('http://jira.hillel.it:8080',\n                              auth=('webinar5', 'webinar5'))\n        assert 200 == result.status_code\n        cookie = {'JSESSIONID': result.cookies.get(\"JSESSIONID\")}\n    \n        json_for_create_issue = {\n            \"fields\": {\n                \"project\":\n                    {\n                        \"key\": \"WEBINAR\"\n                    },\n                \"summary\": \"Test Summary\",\n                \"description\": \"Creating of an issue\",\n                \"assignee\": {\"name\": \"webinar5\"},\n                \"priority\": {\"name\": \"High\"},\n                \"issuetype\": {\"name\": \"Bug\"}\n            }\n        }\n    \n        result = requests.post(\"http://jira.hillel.it:8080/rest/api/2/issue\",\n                               json=json_for_create_issue,\n                               headers={'Content-Type': 'application/json'},\n                               cookies=cookie)\n>       assert 201 == result.status_code\nE       assert 201 == 405\nE         -201\nE         +405\n\ntests/draft/create_issue_raw_code_test.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f12a9a4fbb8151d0",
+      "name" : "log",
+      "source" : "f12a9a4fbb8151d0.txt",
+      "type" : "text/plain",
+      "size" : 91
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.draft"
+  }, {
+    "name" : "suite",
+    "value" : "create_issue_raw_code_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "YuriiTatarenkos-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6682-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.draft.create_issue_raw_code_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d279b31b40583198.json",
+  "parameterValues" : [ ]
+}

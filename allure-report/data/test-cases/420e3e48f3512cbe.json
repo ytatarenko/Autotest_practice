@@ -1,0 +1,122 @@
+{
+  "uid" : "420e3e48f3512cbe",
+  "name" : "test_create_issue_refactored",
+  "fullName" : "tests.create_issue_test.TestIssueRefactored#test_create_issue_refactored",
+  "historyId" : "895551ad6e06fed9314898ead7021dd0",
+  "time" : {
+    "start" : 1579432272330,
+    "stop" : 1579432272511,
+    "duration" : 181
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 201 == 405\n  -201\n  +405",
+  "statusTrace" : "self = <tests.create_issue_test.TestIssueRefactored object at 0x10de06dd8>\n\n    @pytest.mark.api\n    def test_create_issue_refactored(self):\n        result: Response = Api.create_issue(\"WEBINAR\")\n    \n>       assert 201 == result.status_code\nE       assert 201 == 405\nE         -201\nE         +405\n\ntests/create_issue_test.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authentication",
+    "time" : {
+      "start" : 1579432271832,
+      "stop" : 1579432272327,
+      "duration" : 495
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1579432271832,
+        "stop" : 1579432272327,
+        "duration" : 495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 201 == 405\n  -201\n  +405",
+    "statusTrace" : "self = <tests.create_issue_test.TestIssueRefactored object at 0x10de06dd8>\n\n    @pytest.mark.api\n    def test_create_issue_refactored(self):\n        result: Response = Api.create_issue(\"WEBINAR\")\n    \n>       assert 201 == result.status_code\nE       assert 201 == 405\nE         -201\nE         +405\n\ntests/create_issue_test.py:20: AssertionError",
+    "steps" : [ {
+      "name" : "Create issue",
+      "time" : {
+        "start" : 1579432272331,
+        "stop" : 1579432272511,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ee541e3d0f37d1a0",
+      "name" : "log",
+      "source" : "ee541e3d0f37d1a0.txt",
+      "type" : "text/plain",
+      "size" : 379
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "api"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_issue_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIssueRefactored"
+  }, {
+    "name" : "host",
+    "value" : "YuriiTatarenkos-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6682-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_issue_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "api" ]
+  },
+  "source" : "420e3e48f3512cbe.json",
+  "parameterValues" : [ ]
+}

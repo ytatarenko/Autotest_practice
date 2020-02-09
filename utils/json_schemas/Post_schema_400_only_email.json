@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "POST error response schema",
+  "type": "object",
+  "properties": {
+    "error": {"type": "string", "const": "Missing password"}
+  },
+  "required": ["error"]
+}

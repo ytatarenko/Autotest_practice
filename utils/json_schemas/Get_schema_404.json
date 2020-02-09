@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "GET error response schema",
+  "type": "object",
+  "properties": {
+  }
+}
